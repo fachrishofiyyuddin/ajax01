@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     $id = mysqli_real_escape_string($koneksi, $_GET['id']); // Escape parameter untuk mencegah SQL Injection
 
     // Query untuk mengambil data dari database
-    $sql = "SELECT * FROM mahasiswa WHERE id='2'";
+    $sql = "SELECT * FROM mahasiswa WHERE id='$id'";
     $result = mysqli_query($koneksi, $sql);
 
     // Inisialisasi array untuk menyimpan data
