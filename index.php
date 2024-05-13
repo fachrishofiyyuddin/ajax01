@@ -139,8 +139,9 @@ $koneksi = mysqli_connect("localhost", "root", "root", "ajax");
                 </div>
 
             </div>
+        </div>
 
-            <!-- <table id="kosong" class="table table-striped table-bordered" style="width:100%">
+        <!-- <table id="kosong" class="table table-striped table-bordered" style="width:100%">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -620,7 +621,6 @@ $koneksi = mysqli_connect("localhost", "root", "root", "ajax");
                 </tr>
             </tfoot>
         </table> -->
-        </div>
 
         <!-- Your content here -->
 
